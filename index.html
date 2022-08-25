@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Countdown clock</title>
+</head>
+<body>
+    <div class='timer'>
+        <div class='timer__controls'>
+          <button data-time='20' class='timer__button'>20 secs</button>
+          <button data-time='300' class='timer__button'>work 5</button>
+          <button data-time='900' class='timer__button'>quick 15</button>
+          <button data-time='1200' class='timer__button'>snack 20</button>
+          <button data-time='3600' class='timer__button'>lunch break</button>
+          <form name='customForm' id='customForm'>
+             <input name='minutes' type='text' placeholder='Enter minutes'>
+          </form>
+        </div>
+        <div class='display'>
+          <h1  class='display_time-left'>1:00</h1>
+          <p class='display_end-time'>end time</p>
+        </div>
+      </div>
+</body>
+
+<script src="script.js"></script>
+</html>
